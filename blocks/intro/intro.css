@@ -1,0 +1,29 @@
+@import url(./__list/intro__list.css);
+@import url(./__text/intro__text.css);
+@import url(./__title/intro__title.css);
+
+.intro {
+  max-width: 690px;
+  min-height: 428px;
+  color: white;
+  padding-top: 92px;
+  margin: 0 auto;
+}
+
+@media (max-width: 660px) {
+  .intro {
+      padding-top: 64px;
+  }
+  .intro__title {
+      font-size: 32px;
+      line-height: 1.09;
+      font-weight: 900;
+      margin: 0 16px;
+  }
+  .intro__text {
+      margin: 40px 16px 0;
+  }
+  .intro__list {
+      margin: 16px 16px 0;
+  }
+}
