@@ -1,19 +1,17 @@
 @import url(./__image/place__image.css);
 @import url(./__link/place__link.css);
 @import url(./__paragraph/place__paragraph.css);
-@import url(./__paragraph_number_one/place__paragraph_number_one.css);
-@import url(./__paragraph_number_two/place__paragraph_number_two.css);
 @import url(./__title/place__title.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__website/place__website.css);
+@import url(./__paragraph/_container/place__paragraph_container.css);
 
 .place {
   display: grid;
   grid-template-columns: repeat(auto-fit, max(460px));
-  grid-template-rows: max-content max-content max-content;
+  grid-template-rows: max-content max-content;
   grid-template-areas: 
   "title website"
-  "image paragraph"
   "image paragraph";
   color: white;
   grid-column-gap: 40px;
@@ -27,7 +25,7 @@
   .places {
       width: 85%;
       margin: 0 auto;
-      margin-top: 92px;
+      margin-top: 0px;
   }
   .place__image {
       max-width: 440px;
@@ -41,21 +39,32 @@
   .places {
       width: 90%;
       margin: 0 auto;
-      margin-top: 92px;
+      margin-top: 20px;
+      padding: 0;
+  }
+  .place__title {
+      padding-top: 60px;
+  }
+  .place__website {
+    padding-bottom: 10px;
   }
 }
 
 @media (max-width: 768px) {
   .place {
-      grid-template-columns: repeat(auto-fit, max(340px)); 
+      grid-template-columns: repeat(auto-fit, max(340px));
+      grid-column-gap: 28px; 
   }
   .places {
-      padding-left: 16px;
-      margin-top: 0;
+    width: 99%;
+    padding-left: 6px;
+    padding-top: 30px;
+    margin-top: 0;
   }
   .place__title {
       font-size: 42px;
       line-height: 1.1;
+      width: 97%;
   }
   .place__image {
       max-width: 340px;
@@ -66,9 +75,12 @@
       line-height: 1.62;
       font-size: 16px;
   }
+  .place__paragraph_container {
+      width: 352px;
+  }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 756px) {
   .places {
       width: 100%;
       display: flex;
@@ -104,4 +116,28 @@
       padding-left: 16px;
       padding-right: 16px;
   }
+}
+
+@media (max-width: 400px) {
+    .place {
+        margin: 0;
+    }
+    .place__title {
+        width: 84%;
+        padding-top: 40px;
+    }
+    .place__paragraph {
+        margin: 0 auto;
+        width: 89%;
+    }
+    .places {
+        margin-top: 0;
+    }
+    .place__paragraph_container {
+        padding-top: 30px;
+        width: 100%;
+    }
+    .place__image {
+        width: 99.9%;
+    }
 }

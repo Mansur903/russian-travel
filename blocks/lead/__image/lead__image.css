@@ -2,5 +2,6 @@
   width: 984px;
   height: 615px;
   width: 100%;
+  padding-top: 17px;
   object-fit: cover;
 }

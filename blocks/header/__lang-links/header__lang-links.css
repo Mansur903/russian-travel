@@ -4,3 +4,8 @@
   padding: 18px 0 6px;
   margin: 0;
 }
+@media (max-width: 400px) {
+  .header__lang-links {
+    padding: 13px 0 6px;
+  }
+}

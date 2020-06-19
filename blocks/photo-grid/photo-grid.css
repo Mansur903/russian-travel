@@ -1,5 +1,5 @@
 @import url(./__picture/photo-grid__picture.css);
-@import url(./__picture_item/photo-grid__picture_item.css);
+@import url(./__item/photo-grid__item.css);
 
 .photo-grid {
   display: grid;
@@ -8,13 +8,14 @@
   list-style: none;
   padding: 0;
   max-width: 1280px;
-  margin: 92px auto 0;
+  margin: 105px auto 0;
   justify-content: center;
 }
 
 @media (max-width: 1024px) {
   .photo-grid {
       grid-template-columns: repeat(auto-fit, max(300px));
+      margin: 90px auto 0
   }
   .photo-grid__picture {
       max-width: 300px;
@@ -40,4 +41,10 @@
   .photo-grid {
       margin: 64px auto 0;
   } 
+}
+
+@media(max-width: 400px) {
+  .photo-grid {
+    grid-gap: 12px;
+  }
 }

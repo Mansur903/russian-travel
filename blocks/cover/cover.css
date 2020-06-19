@@ -27,6 +27,7 @@
 @media (max-width:768px) {
   .cover {
       height: 480px;
+      margin-top: 82px;
   }
 }
 
@@ -46,6 +47,6 @@
   }
   .cover {
       height: 200px;
-      margin: 64px auto;
+      margin: 28px auto;
   }
 }
