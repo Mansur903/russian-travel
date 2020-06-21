@@ -17,7 +17,7 @@
       grid-template-columns: repeat(auto-fit, max(300px));
       margin: 90px auto 0
   }
-  .photo-grid__picture {
+  .photo-grid__item {
       max-width: 300px;
   }
 } 
@@ -26,7 +26,7 @@
   .photo-grid {
       grid-template-columns: repeat(auto-fit, max(350px));
   } 
-  .photo-grid__picture {
+  .photo-grid__item {
       max-width: 350px;
   }
 }
@@ -35,7 +35,7 @@
   .photo-grid {
       grid-template-columns: repeat(auto-fit, max(288px));
   }
-  .photo-grid__picture {
+  .photo-grid__item {
       max-width: 288px;
   }
   .photo-grid {

@@ -1,0 +1,7 @@
+.header__item {
+  margin-right: 18px;
+}
+
+.header__item:nth-of-type(2n) {
+  margin-right: 0;
+}

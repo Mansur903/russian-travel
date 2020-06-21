@@ -4,7 +4,7 @@
 @import url(./__title/place__title.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__website/place__website.css);
-@import url(./__paragraph/_container/place__paragraph_container.css);
+@import url(./__paragraph-container/place__paragraph-container.css);
 
 .place {
   display: grid;
@@ -15,9 +15,16 @@
   "image paragraph";
   color: white;
   grid-column-gap: 40px;
-  justify-content: center;
 }
 
+@media (min-width: 1440px) {
+    .places {
+        text-align: center;
+    }
+    .place {
+        display: inline-block;
+    }
+}
 @media (max-width: 1100px) {
   .place {
       grid-template-columns: repeat(auto-fit, max(440px)); 
@@ -75,7 +82,7 @@
       line-height: 1.62;
       font-size: 16px;
   }
-  .place__paragraph_container {
+  .place__paragraph-container {
       width: 352px;
   }
 }
@@ -133,7 +140,7 @@
     .places {
         margin-top: 0;
     }
-    .place__paragraph_container {
+    .place__paragraph-container {
         padding-top: 30px;
         width: 100%;
     }

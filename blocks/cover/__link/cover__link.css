@@ -10,6 +10,9 @@
   justify-content: center;
   text-decoration: none;
   color: white;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .cover__link:after {
@@ -20,7 +23,7 @@
   background-color: black;
   background-size: cover;
   opacity: 0.3;
-  transition: opacity 0.2s linear;  
+  transition: opacity 0.2s linear; 
 }
 
 .cover__link:hover:after {

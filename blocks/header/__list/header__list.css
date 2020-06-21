@@ -1,7 +1,0 @@
-.header__list {
-  margin-right: 18px;
-}
-
-.header__list:nth-of-type(2n) {
-  margin-right: 0;
-}

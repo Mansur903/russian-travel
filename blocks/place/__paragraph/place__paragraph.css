@@ -1,5 +1,4 @@
 .place__paragraph {
-  grid-area: paragraph;
   max-width: 484px;
   line-height: 1.67;
   font-size: 18px;
