@@ -1,7 +1,7 @@
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__item/header__item.css);
-@import url(./__lang-link/header__lang_link_active.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
   display: flex;
@@ -21,14 +21,5 @@
 @media (max-width: 660px) {
   .header {
       padding: 16px 16px 0; 
-  }
-  .logo_place_header {
-      width: 142px;
-      height: 42px;
-  }
-  .header__lang-link {
-      font-size: 18px;
-      line-height: 1.33;
-  }
-  
+  } 
 }

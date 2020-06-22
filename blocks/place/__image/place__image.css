@@ -3,3 +3,28 @@
   grid-area: image;
   margin-top: 48px;
 }
+
+@media (max-width: 1100px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 756px) {
+  .place__image {
+    max-width: 320px;
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 400px) {
+  .place__image {
+    width: 99.9%;
+  }
+}

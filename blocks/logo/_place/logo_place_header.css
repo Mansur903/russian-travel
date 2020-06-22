@@ -8,3 +8,10 @@
     height: 42px;
   }
 }
+
+@media (max-width: 660px) {
+  .logo_place_header {
+    width: 142px;
+    height: 42px;
+  }
+}

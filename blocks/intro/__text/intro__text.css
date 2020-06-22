@@ -4,3 +4,29 @@
   line-height: 1.62;
   width: 75%;
 }
+
+@media (max-width: 1024px) {
+  .intro__text {
+    width: 70%;
+    margin: 30px 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro__text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 670px) {
+  .intro__text {
+    margin: 40px 16px 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .intro__text {
+    margin: 40px 0 0;
+  }
+}

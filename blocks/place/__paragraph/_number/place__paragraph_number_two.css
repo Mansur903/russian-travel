@@ -1,0 +1,7 @@
+@media (max-width: 756px) {
+  .place__paragraph_number_two {
+    padding-bottom: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

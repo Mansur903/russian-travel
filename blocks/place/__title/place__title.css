@@ -6,3 +6,32 @@
   margin: 0;
   padding-top: 80px;
 }
+
+@media (max-width: 1024px) {
+  .place__title {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+    width: 97%;
+  }
+}
+
+@media (max-width: 756px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 1.09;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .place__title {
+    width: 84%;
+    padding-top: 40px;
+  }
+}

@@ -1,7 +1,7 @@
 @import url(./__author/footer__author.css);
-@import url(./__li/footer__li.css);
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
+@import url(./__list-item/footer__list-item.css);
 
 .footer {
   max-width: 1184px;
@@ -11,42 +11,9 @@
   justify-content: space-between;
 }
 
-@media (max-width: 1100px) {
-  .footer__links {
-      margin:0 0 0 48px;
-  }
-  .footer__author {
-    margin: 0 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  .footer__links {
-      margin:0 0 0 24px;
-  }
-  .footer__author {
-      margin: 0 10px;
-  }
-}
-
 @media (max-width: 660px) {
   .footer {
       flex-direction: column;
       margin-top: 74px;
-  }
-  .footer__links {
-      flex-direction: column;
-  }
-  .footer__link {
-      margin-right: 24px;
-      line-height: 1;
-      font-size: 24px;
-  }
-  .footer__list-item {
-      margin-bottom: 32px;
-  }
-  .footer__author {
-      line-height: 1;
-      margin: 15px 10px;
   }
 }

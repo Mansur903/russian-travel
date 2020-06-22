@@ -6,3 +6,28 @@
   list-style: none;
   padding: 0;
 }
+
+@media (max-width: 1024px) {
+  .intro__list {
+    margin: 10px 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro__list {
+    margin: 32px 0 0;
+  }
+}
+
+@media (max-width: 670px) {
+  .intro__list {
+    margin: 16px 16px 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .intro__list {
+    margin: 55px 0 0;
+  }
+}

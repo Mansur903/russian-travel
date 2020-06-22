@@ -4,3 +4,24 @@
   padding-top: 17px;
   object-fit: cover;
 }
+
+@media (max-width: 1024px) {
+  .lead__image {
+    height: 580px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__image {
+    height: 480px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .lead__image {
+    height: 200px;
+  }
+}
+

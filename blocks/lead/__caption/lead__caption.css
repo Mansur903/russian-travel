@@ -7,3 +7,21 @@
   align-self: flex-start;
   margin-top:8px;
 }
+
+@media (max-width: 1024px) {
+  .lead__caption {
+    margin: 8px 0 0 5%;
+  }
+}
+
+@media (max-width: 768px) { 
+  .lead__caption {
+    margin:8px 0 0 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .lead__caption {
+    margin: 0 0 0 14px;
+  }
+}

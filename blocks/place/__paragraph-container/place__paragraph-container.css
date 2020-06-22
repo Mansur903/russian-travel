@@ -2,3 +2,16 @@
   grid-area: paragraph;
   padding-top: 48px;
 }
+
+@media (max-width: 768px) {
+  .place__paragraph-container {
+    width: 352px;
+  }
+}
+
+@media (max-width: 400px) {
+  .place__paragraph-container {
+    padding-top: 30px;
+    width: 100%;
+  }
+}

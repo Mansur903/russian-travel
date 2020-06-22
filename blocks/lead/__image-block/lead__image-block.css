@@ -2,3 +2,26 @@
   margin: 54px 0 0;
   width: 77%;
 }
+
+@media (max-width: 1024px) {
+  .lead__image-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__image-block {
+    width: 100%;
+    margin: 40px 0 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .lead__image-block {
+    margin: 24px 0 0;
+  }
+}

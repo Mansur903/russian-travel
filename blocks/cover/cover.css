@@ -24,21 +24,8 @@
 }
 
 @media (max-width: 660px) {
-  .cover__title {
-      font-size: 32px;
-      line-height: 1.09;
-      width: 288px;
-      height: 70px;
-      margin:0;
-  }
-  .cover__subtitle {
-      max-width: 270px;
-      line-height: 1.14;
-      font-size: 14px;
-      margin:0;
-  }
   .cover {
       height: 200px;
-      margin: 28px auto;
+      margin: 50px auto;
   }
 }
