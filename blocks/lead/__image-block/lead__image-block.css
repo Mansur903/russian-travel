@@ -1,15 +1,25 @@
 .lead__image-block {
   margin: 54px 0 0;
-  width: 77%;
+  width: 85%;
+  padding-left: 18px;
+  box-sizing: border-box;
+}
+
+@media url (max-width: 1280px) {
+  .lead__image-block {
+    margin: 41px 0 0;
+  }
 }
 
 @media (max-width: 1024px) {
   .lead__image-block {
     width: 100%;
     height: 100%;
+    margin: 40px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 18px;
   }
 }
 
@@ -17,6 +27,7 @@
   .lead__image-block {
     width: 100%;
     margin: 40px 0 0;
+    padding-left: 0px;
   }
 }
 

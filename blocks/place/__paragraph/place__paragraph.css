@@ -7,6 +7,7 @@
   font-size: 18px;
   margin: 0;
   padding-bottom: 24px;
+  text-align: start;
 }
 
 @media (max-width: 768px) {
@@ -19,6 +20,6 @@
 @media (max-width: 400px) {
   .place__paragraph {
     margin: 0 auto;
-    width: 90%;
+    width: 88%;
   }
 }

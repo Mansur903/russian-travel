@@ -3,6 +3,7 @@
   align-self: end;
   display: flex;
   flex-direction: column;
+  justify-self: start;
 }
 
 @media (max-width: 1024px) {

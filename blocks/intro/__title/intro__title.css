@@ -17,5 +17,6 @@
 @media (max-width: 400px) {
   .intro__title {
     margin: 0 5px;
+    width: 80%;
   }
 }

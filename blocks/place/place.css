@@ -17,12 +17,6 @@
   grid-column-gap: 40px;
 }
 
-@media (min-width: 1440px) {
-  .place {
-      display: inline-block;
-  }
-}
-
 @media (max-width: 1100px) {
   .place {
       grid-template-columns: repeat(auto-fit, max(440px)); 
@@ -32,6 +26,7 @@
 @media (max-width: 1024px) {
   .place {
       grid-template-columns: repeat(auto-fit, max(440px)); 
+      grid-column-gap: 30px;
   }
 }
 
